@@ -14,9 +14,6 @@
 #include "userInput.h"
 #include "userOutput.h"
 
-#define _CRTDBG_MAP_ALLOC
-#include <crtdbg.h>
-
 int main(void)
 {
 	FrameNode* head = NULL;
