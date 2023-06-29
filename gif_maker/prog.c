@@ -1,5 +1,5 @@
 /*********************************
-* Class: MAGSHIMIM C2			 *
+* Class: MAGSHIMIM C2	         *
 * GIL YELKIN                     *
 * GitHub: 'gil_yelkin'           *
 * LinkedIn: 'Gil Yelkin'         *
