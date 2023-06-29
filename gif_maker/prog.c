@@ -1,6 +1,8 @@
 /*********************************
 * Class: MAGSHIMIM C2			 *
-* openCV template      			 *
+* GIL YELKIN                     *
+* GitHub: 'gil_yelkin'           *
+* LinkedIn: 'Gil Yelkin'         *
 **********************************/
 
 #pragma warning (disable : 6031)

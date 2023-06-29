@@ -4,10 +4,6 @@
 FrameNode* addFrame(FrameNode* head, FrameNode* newFrame)
 {
 	FrameNode* curr = head;
-	char pathCopy[PATH_LEN] = { 0 };
-
-	//returning the path to newFrame
-	strncpy_s(newFrame->frame->path, PATH_LEN, pathCopy, PATH_LEN);
 
 	//handeling edge case where the head is NULL
 	if (!curr)

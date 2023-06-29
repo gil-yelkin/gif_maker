@@ -3,7 +3,13 @@
 int getFrameParams(FrameNode* head, FrameNode* newFrame)
 {
 	//getting path
-	if (!checkFileExistence(getString(newFrame->frame->path, "Please insert frame path:", PATH_LEN)))
+	char pathCopy[PATH_LEN] = { 0 }; //This is needed because fopen_s (in checkFileExistence) deletes the path after use
+
+	//copying the path
+	strcpy_s(pathCopy, PATH_LEN, getString(newFrame->frame->path, "Please insert frame path:", PATH_LEN));
+
+	//checking if the file exists
+	if (!checkFileExistence(pathCopy))
 	{
 		puts("Can't find file! Frame will not be added");
 		deleteList(newFrame);
